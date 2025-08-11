@@ -159,7 +159,7 @@ $ sqlite3 gnaf.db < gnaf_schema.sql
 Once created you'll have something that looks like this
 ([credit](https://docs.geoscape.com.au/projects/gnaf_desc/en/stable/appendix_b.html)):
 
-![G-NAF ORM](/gnaf_orm.png)
+![G-NAF ORM](/posts/fast-gnaf-lookups-with-sqlite3-fts5/gnaf_orm.png)
 
 Once last thing, the dataset also includes a stored query which makes it a
 little easier to lookup addresses in the database. The stored query supplied by
