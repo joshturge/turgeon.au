@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
-
 *, *:before, *:after {
     box-sizing: border-box;
 }
 
 html {
     color: #004830;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; 
     font-size: 1.2em;
     display: flex;
     flex-direction: row;
