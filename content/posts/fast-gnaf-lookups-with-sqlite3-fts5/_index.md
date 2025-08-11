@@ -2,6 +2,7 @@
 date = '2025-08-08T19:14:25+10:00'
 draft = false 
 title = 'Building a Lightning-Fast Address Search with SQLite and FTS5'
+layout = 'single'
 +++
 
 ## Intro
