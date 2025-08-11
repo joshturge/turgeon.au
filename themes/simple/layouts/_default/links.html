@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h3>{{ .Title }}</h3>
+  {{ .Content }}
+  <ul>
+  {{ range .Site.Data.contact.links }}
+  <li>
+      <a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>
+  </li>
+  {{ end }}
+  </ul>
+{{ end }}

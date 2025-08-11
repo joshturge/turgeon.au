@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    color: #004830;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 1.6;
+}
+
+body {
+    overflow-x: hidden;
+    width: 770px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+header {
+    margin-top: 1.4rem;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    h2 {
+        display: inline;
+        margin: 0 8px 0 0;
+    }
+
+    nav {
+        display: inline-block;
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: inline;
+                margin: 0 3px;
+
+                a {
+                    color: #454545;
+                }
+            }
+        }
+    }
+}
+
+/* Underline navbar link when on page */
+.active {
+    text-decoration: underline !important;
+}
+
+main {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 0.5rem;
+        line-height: 1.15;
+    }
+
+    h1 + p,
+    h2 + p,
+    h3 + p,
+    h4 + p,
+    h5 + p,
+    h6 + p {
+        margin-top: 5px;
+    }
+
+    a {
+        color: #007dfa;
+        text-decoration: none;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    blockquote {
+        font-style: italic;
+        margin: 1rem 0 1rem 3rem;
+        padding-left: 0.7rem;
+        border-left: 2px solid #ccc;
+    }
+
+    hr {
+        height: 1px;
+        border: 0;
+        background: #d8d8d8;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    figure {
+        margin: 0;
+
+        figcaption {
+            font-size: 1rem;
+            opacity: 80%;
+            font-style: italic;
+        }
+    }
+
+    code, pre {
+        font-size: 0.9rem;
+        font-family: "IBM Plex Mono", monospace;
+        font-weight: 300;
+        font-style: normal;
+        background-color: #DFEADE;
+        color: black;
+    }
+
+    code:not(pre code) {
+        padding: 0 0.3rem;
+    }
+
+    pre {
+        display: block;
+        overflow-x: scroll;
+        white-space: pre;
+        padding: 0.5rem 1rem;
+        line-height: 1.2;
+        border-left: 2px solid #004830;
+    }
+
+    ul#posts {
+        small {
+            color: #767676;
+            margin-left: 10px;
+        }
+    }
+
+    ul#library {
+        font-size: 0.9rem;
+        list-style-type: none;
+        margin: 0 0 4rem 0;
+        padding: 0;
+
+        li {
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            gap: 2rem;
+        }
+
+        div .title {
+            display: flex;
+            flex-direction: column;
+            gap: 0rem;
+        }
+
+        small.status {
+            width: 20ch;
+            text-align: end;
+        }
+
+        small.text {
+            font-weight: 800
+        }
+
+        small {
+            color: #767676;
+        }
+    }
+
+    div#post-date {
+        display: block;
+        color: #767676;
+    }
+}
+
+footer {
+    margin: 30px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #b3b3b3;
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+}
+
+@media (max-width: 770px) {
+    main {
+        blockquote {
+            margin: 1rem 0 1rem 1rem;
+        }
+
+        ul#library {
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 0rem;
+            }
+
+            small.status {
+                width: 100%;
+                text-align: start;
+            }
+        }
+    }
+}
+

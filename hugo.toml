@@ -1,0 +1,15 @@
+baseURL = 'https://www.turgeon.au/'
+languageCode = 'en-us'
+title = 'turgeon.au'
+theme = "simple"
+
+[[menus.main]]
+name = 'posts'
+pageRef = '/posts'
+weight = 10
+
+[[menus.main]]
+name = 'contact'
+pageRef = '/contact'
+weight = 20
+
