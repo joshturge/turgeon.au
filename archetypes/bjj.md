@@ -5,8 +5,10 @@ title = 'Class {{ .File.ContentBaseName | title }}'
 tags = ['bjj']
 +++
 
-# What we Did
+# What We Trained 
 
 # What I Learnt
+
+# What to Improve
 
 # How I Felt After
