@@ -13,3 +13,11 @@ name = 'contact'
 pageRef = '/contact'
 weight = 20
 
+[outputs]
+  home = ["HTML", "RSS"]
+
+[outputFormats.RSS]
+  mediaType = "application/rss+xml"
+  baseName = "rss"
+  isPlainText = true
+  isHTML = false
