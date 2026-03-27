@@ -12,7 +12,7 @@
 
 html {
     color: #004830;
-    font-family: 'Merriweather', sans-serif; 
+    font-family: 'Merriweather', Georgia, sans-serif; 
     font-size: 1.2em;
     display: flex;
     flex-direction: row;
